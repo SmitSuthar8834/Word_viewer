@@ -1,0 +1,19 @@
+﻿<Project>
+    <ItemGroup Condition="'$(PkgPath)' != ''">
+        <Compile Remove="$(PkgPath)/word_viewer/Assemblies/**" />
+        <Compile Remove="$(PkgPath)/word_viewer/Data/**" />
+        <Compile Remove="$(PkgPath)/word_viewer/SqlScripts/**" />
+        <Compile Remove="$(PkgPath)/word_viewer/Schemas\**" />
+        <Compile Remove="$(PkgPath)/word_viewer/Resources/**" />
+        <EmbeddedResource Remove="$(PkgPath)/word_viewer/Assemblies/**" />
+        <EmbeddedResource Remove="$(PkgPath)/word_viewer/Data/**" />
+        <EmbeddedResource Remove="$(PkgPath)/word_viewer/SqlScripts/**" />
+        <EmbeddedResource Remove="$(PkgPath)/word_viewer/Schemas/**" />
+        <EmbeddedResource Remove="$(PkgPath)/word_viewer/Resources/**" />
+        <None Remove="$(PkgPath)/word_viewer/Assemblies/**" />
+        <None Remove="$(PkgPath)/word_viewer/Data/**" />
+        <None Remove="$(PkgPath)/word_viewer/SqlScripts/**" />
+        <None Remove="$(PkgPath)/word_viewer/Schemas/**" />
+        <None Remove="$(PkgPath)/word_viewer/Resources/**" />
+    </ItemGroup>
+</Project>

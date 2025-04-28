@@ -1,0 +1,15 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{7ae1debd-eb75-4665-bb2e-f011dd6bfda5}") = "word_viewer", "..\packages\word_viewer\Files\word_viewer.csproj", "{8402f510-ea00-44ee-b0a1-ff36b7018287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+			{8402f510-ea00-44ee-b0a1-ff36b7018287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+			{8402f510-ea00-44ee-b0a1-ff36b7018287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+			{8402f510-ea00-44ee-b0a1-ff36b7018287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+			{8402f510-ea00-44ee-b0a1-ff36b7018287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

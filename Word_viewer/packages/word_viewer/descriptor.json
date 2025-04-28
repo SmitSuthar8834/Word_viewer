@@ -1,0 +1,12 @@
+﻿{
+  "Descriptor": {
+    "UId": "670ba4dc-bf53-48e2-8e57-fc2c26e2de9d",
+    "PackageVersion": "0.1.0",
+    "Name": "word_viewer",
+    "Type": 1,
+    "ProjectPath": "Files/word_viewer.csproj",
+    "ModifiedOnUtc": "/Date(1745819796000)/",
+    "Maintainer": "Customer",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,123 @@
+.word-viewer-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #f5f5f5;
+  
+  .toolbar {
+    padding: 12px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    button {
+      padding: 8px 16px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+
+      &:disabled {
+        background: #cccccc;
+      }
+
+      &:hover:not(:disabled) {
+        background: #0056b3;
+      }
+    }
+  }
+
+  .content-area {
+    flex: 1;
+    padding: 24px;
+    overflow-y: auto;
+
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .error {
+      color: #dc3545;
+      padding: 16px;
+      text-align: center;
+      background: #f8d7da;
+      border-radius: 4px;
+      margin: 16px;
+    }
+
+    .document-content {
+      .page {
+        background: white;
+        padding: 48px;
+        margin: 0 auto;
+        max-width: 816px; // Standard US Letter width
+        min-height: 1056px; // Standard US Letter height
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        
+        .page-header {
+          margin-bottom: 32px;
+          padding-bottom: 16px;
+          border-bottom: 1px solid #eee;
+
+          h1 {
+            margin: 0 0 16px 0;
+            color: #333;
+            font-size: 24px;
+          }
+
+          .metadata {
+            color: #666;
+            font-size: 12px;
+          }
+        }
+
+        .page-content {
+          h2 {
+            color: #444;
+            margin: 24px 0 16px;
+            font-size: 18px;
+          }
+
+          p {
+            margin: 0 0 16px;
+            line-height: 1.6;
+            color: #333;
+          }
+
+          ul {
+            margin: 16px 0;
+            padding-left: 24px;
+
+            li {
+              margin: 8px 0;
+              color: #333;
+            }
+          }
+
+          .custom-content {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+          }
+        }
+
+        .page-footer {
+          margin-top: 32px;
+          padding-top: 16px;
+          border-top: 1px solid #eee;
+          text-align: center;
+          color: #666;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
