@@ -16,30 +16,7 @@
 
     <div class="document-content" *ngIf="!isLoading && !error">
       <div class="page">
-        <div class="page-header">
-          <h1>Sample Document</h1>
-          <div class="metadata">
-            <span>Created: {{currentDate | date}}</span>
-          </div>
-        </div>
-        <div class="page-content">
-          <h2>Introduction</h2>
-          <p>This is a sample Word document viewer. You can use this component to display Word documents in your application.</p>
-          
-          <h2>Features</h2>
-          <ul>
-            <li>Document viewing</li>
-            <li>Page layout</li>
-            <li>Basic formatting</li>
-          </ul>
-
-          <div class="custom-content">
-            {{ documentContent }}
-          </div>
-        </div>
-        <div class="page-footer">
-          <span>Page 1</span>
-        </div>
+        <div [innerHTML]="convertedHtml"></div>
       </div>
     </div>
   </div>

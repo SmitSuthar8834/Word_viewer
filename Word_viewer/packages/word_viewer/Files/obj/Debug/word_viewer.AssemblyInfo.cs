@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("word_viewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+077c26d3d8fe4272e9fcbff7f398f4c899b1c608")]
 [assembly: System.Reflection.AssemblyProductAttribute("word_viewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("word_viewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
